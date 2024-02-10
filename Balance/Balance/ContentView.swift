@@ -8,15 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  @State private var showEventEditView = false
+  var body: some View {
+    VStack {
+      Button(action: { showEventEditView = true }, label: {
+        Text("New Event")
+          .foregroundColor(.white)
+          .padding()
+          .background(Color.blue)
+          .cornerRadius(10)
+      })
     }
+    .sheet(isPresented: $showEventEditView, content: {
+      EventEditView()
+    })
+    .padding()
+  }
 }
 
 #Preview {

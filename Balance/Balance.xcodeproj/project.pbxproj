@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4F77BA2B7760440002AEBE /* EventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F77B92B7760440002AEBE /* EventEditView.swift */; };
 		C00D4D422B7543540086E013 /* BalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D4D412B7543540086E013 /* BalanceApp.swift */; };
 		C00D4D442B7543540086E013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D4D432B7543540086E013 /* ContentView.swift */; };
 		C00D4D462B7543550086E013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00D4D452B7543550086E013 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA4F77B92B7760440002AEBE /* EventEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditView.swift; sourceTree = "<group>"; };
+		BA4F77BB2B77689E0002AEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C00D4D3E2B7543540086E013 /* Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00D4D412B7543540086E013 /* BalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceApp.swift; sourceTree = "<group>"; };
 		C00D4D432B7543540086E013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +54,10 @@
 		C00D4D402B7543540086E013 /* Balance */ = {
 			isa = PBXGroup;
 			children = (
+				BA4F77BB2B77689E0002AEBE /* Info.plist */,
 				C00D4D412B7543540086E013 /* BalanceApp.swift */,
 				C00D4D432B7543540086E013 /* ContentView.swift */,
+				BA4F77B92B7760440002AEBE /* EventEditView.swift */,
 				C00D4D452B7543550086E013 /* Assets.xcassets */,
 				C00D4D472B7543550086E013 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4F77BA2B7760440002AEBE /* EventEditView.swift in Sources */,
 				C00D4D442B7543540086E013 /* ContentView.swift in Sources */,
 				C00D4D422B7543540086E013 /* BalanceApp.swift in Sources */,
 			);
@@ -272,9 +278,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Balance/Preview Content\"";
-				DEVELOPMENT_TEAM = MDSTSS9647;
+				DEVELOPMENT_TEAM = N9NN3CSS37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Balance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,9 +308,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Balance/Preview Content\"";
-				DEVELOPMENT_TEAM = MDSTSS9647;
+				DEVELOPMENT_TEAM = N9NN3CSS37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Balance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
